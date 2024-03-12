@@ -1,0 +1,38 @@
+name: pii-data-detection
+channels:
+  - pytorch
+  - nvidia
+  - nvidia/label/cuda-12.1.0
+  - conda-forge
+  - huggingface
+dependencies:
+  - python=3.10
+  - pip
+  - setuptools
+  - pytorch
+  - pytorch-cuda=12.1
+  - lightning
+  - torchmetrics
+  - wandb
+  - cuda-nvcc
+  - numpy
+  - pandas
+  - matplotlib
+  - bokeh
+  - jupyter
+  - jupyterlab
+  - ipython
+  - ipywidgets
+  - datasets
+  - transformers
+  - tensorboard
+  - gradio
+  - tqdm
+  - sentencepiece
+  - ruff
+  - python-lsp-server
+  - python-lsp-ruff
+  - pylsp-mypy
+  - pip:
+      - kaggle
+      - 'jsonargparse[signatures]'
