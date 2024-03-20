@@ -1,5 +1,8 @@
 datasets
 
+.direnv
 __pycache__
+.kaggle
+.mypy_cache
 .ruff_cache
 

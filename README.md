@@ -1,2 +1,2 @@
 # PII Data Detection
-Training code for kaggle's PII Data Detection competition.
+Training and evaluation code for kaggle's PII Data Detection competition.
